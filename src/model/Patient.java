@@ -50,4 +50,12 @@ public class Patient extends User {
     public void setHeight(double height) {
         this.height = height;
     }
+
+    /**
+     * show all data of user
+     */
+    @Override
+    public void showData() {
+
+    }
 }

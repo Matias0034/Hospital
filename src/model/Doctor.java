@@ -7,9 +7,8 @@ public class Doctor extends User {
 
     private String speciality;
 
-
     public Doctor(String name, String email, String address, String speciality, int phoneNumber){
-        super(name, email, address, phoneNumber);
+        super(name,email,address,phoneNumber);
         this.speciality = speciality;
     }
 
@@ -21,8 +20,17 @@ public class Doctor extends User {
         this.speciality = speciality;
     }
 
+    /**
+     * Abstract method that employ the class Doctor and Nurse
+     * show all data of user
+     */
+    @Override
+    public void showData() {
 
-   public class AvailableAppointment{
+    }
+
+
+    public class AvailableAppointment{
 
         //Attributes
 
